@@ -8,6 +8,6 @@ find_package(OpenCV REQUIRED)
 
 include_directories(${OpenCV_INCLUDE_DIRS})
 
-add_executable(DisplayImage src/DisplayImage.cpp)
+add_executable(AffineTransformations src/AffineTransformations.cpp)
 
-target_link_libraries(DisplayImage PRIVATE ${OpenCV_LIBS})
+target_link_libraries(AffineTransformations PRIVATE ${OpenCV_LIBS})
