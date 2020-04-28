@@ -1,4 +1,4 @@
 builds/
 build_opencv/
 build_dlib/
-DS_Store
+.DS_Store
